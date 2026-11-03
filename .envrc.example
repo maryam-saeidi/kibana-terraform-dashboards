@@ -1,0 +1,5 @@
+# Copy to .envrc and run `source .envrc` (or use direnv).
+# Include the Kibana base path if Kibana runs with one (yarn start defaults to /kibana or a random one).
+export KIBANA_ENDPOINT=http://localhost:5601/kibana
+export KIBANA_USERNAME=elastic
+export KIBANA_PASSWORD=changeme
